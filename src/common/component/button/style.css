@@ -1,0 +1,19 @@
+a {
+    color: #7e6752;
+    text-decoration: none;
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+    -webkit-transition: color 0.3s;
+    transition: color 0.3s;
+    -webkit-text-decoration-skip: objects;
+  }
+  
+  html {
+    --antd-wave-shadow-color: #7e6752;
+  }
+  
+  ::selection {
+    color: #fff;
+    background: #7e6752;
+  }
